@@ -44,7 +44,11 @@ GEM
       execjs
     coffee-script-source (1.7.0)
     database_cleaner (1.2.0)
+    date_validator (0.7.0)
+      activemodel (>= 3)
     diff-lcs (1.2.5)
+    email_validator (1.4.0)
+      activemodel
     erubis (2.7.0)
     execjs (2.0.2)
     factory_girl (4.4.0)
@@ -169,6 +173,8 @@ DEPENDENCIES
   capybara (~> 2.2.1)
   coffee-rails (~> 4.0.0)
   database_cleaner (~> 1.2.0)
+  date_validator (~> 0.7.0)
+  email_validator (~> 1.4.0)
   factory_girl_rails (~> 4.4.1)
   foreigner (~> 1.6.1)
   jbuilder (~> 2.0)
